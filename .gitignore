@@ -1,0 +1,19 @@
+# Build output (never push binaries or object files)
+bin/
+build/
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.d
+
+# Temporary/test and editor files
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc
